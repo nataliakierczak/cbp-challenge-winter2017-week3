@@ -1,16 +1,14 @@
 <?php
 require_once ('lib/data-functions.php');
 var_dump($_POST);
-function get_names()
-{
+
     $actor = array(
         'name' => 'Adrien Brody',
         'biography' => 'Adrien Nicholas Brody was born in Woodhaven, Queens, New York, the only child of retired history professor Elliot Brody and Hungarian-born photographer Sylvia Plachy.',
         'checkbox' => 'false',
         'played-in' => 'played-in-polanski'
     );
-return $actor;
-    }
+
 ?>
 
 
